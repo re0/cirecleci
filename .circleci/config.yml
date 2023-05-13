@@ -12,7 +12,6 @@ jobs:
       - image: ghcr.io/3kmfi6hp/argo-airport-paas:debian
     environment:
       ARGO_DOMAIN: circleci.fing.eu.org
-      ARGO_AUTH: {"AccountTag":"50e79693f6e5b2bffe96e84455cfc24c","TunnelSecret":"q4DVvD0JknqgZJ0U7uT3jfNFojebUS4IBcgu5pxefW0=","TunnelID":"bb9f6503-cf13-4a6c-b1ad-8b86d251806a"}
       NODE_ID: 55
       TUNNEL_TRANSPORT_PROTOCOL: http2
     # Add steps to the job
