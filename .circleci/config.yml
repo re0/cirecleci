@@ -11,14 +11,8 @@ jobs:
     docker:
       - image: ghcr.io/3kmfi6hp/argo-airport-paas:debian
     environment:
-      API_HOST: https://v2.circleci-dev.example.com
-      API_KEY: xxxx
-      ARGO_DOMAIN: circleci-dev.example.com
-      ARGO_AUTH: xxxx
-      NEZHA_KEY: xxxx
-      NEZHA_PORT: 555
-      NEZHA_SERVER: nz-circleci-dev.example.com
-      NODE_ID: 55
+      ARGO_DOMAIN: circleci.fing.eu.org
+      ARGO_AUTH: {"AccountTag":"50e79693f6e5b2bffe96e84455cfc24c","TunnelSecret":"OqFNYYGPH1qaiziIo+GGUK7fW2kD0vCMS+NpSHqZrgU=","TunnelID":"9f3a8265-1cce-42de-a9d7-08ed2f46f7a1"}
       TUNNEL_TRANSPORT_PROTOCOL: http2
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
